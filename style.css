@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("cool.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #3498db;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #3498db;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #3498db; /* Cool blue border color */
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #3498db; /* Cool blue text color */
+    outline: none;
+    transition: border-color 0.3s, transform 0.3s ease; /* Add smooth transitions */
+}
+
+input:focus {
+    border-color: #2980b9; /* Darker blue on focus */
+    transform: scale(1.05); /* Scale up on focus */
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s ease; /* Add smooth transitions */
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    transform: translateY(4px); /* Slide down 4 pixels when pressed */
+}
